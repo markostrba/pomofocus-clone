@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./App.css";
-
+import Navbar from "./components/Navbar";
 function App() {
   return (
-    <>
-      <h1 className="text-turquoise">s</h1>
-    </>
+    <div className="bg-red">
+      <Navbar />
+    </div>
   );
 }
 

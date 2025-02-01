@@ -1,7 +1,24 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'ArialRounded';
+  src: url('./assets/fonts/Arial_Rounded_MT.ttf') format('truetype');
+  font-weight: normal; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ArialRounded';
+  src: url('./assets/fonts/Arial-Rounded-MT-Bold.ttf') format('truetype');
+  font-weight: bold; /* Bold */
+  font-style: normal;
+}
+
 @theme {
+  --color-primary-red: rgb(186, 73, 73);
+  --color-secondary-red: rgb(225, 155, 153);
   --color-red: rgb(186, 73, 73);
   --color-turquoise: rgb(56, 133, 138);
   --color-blue: rgb(57, 112, 151);
+  --font-primary: 'ArialRounded';
 }
